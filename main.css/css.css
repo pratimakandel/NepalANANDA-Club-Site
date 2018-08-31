@@ -1,0 +1,82 @@
+
+*{
+  background-color: #e1e8f0;
+  color:#845007;
+}
+#left-col{
+    font-size:1.2em;
+  
+  }
+  img{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+  }
+ 
+  #maintitle{
+    margin-top:1%;
+    /* position: absolute; */
+    width:50em;
+    margin-left:30%;
+    opacity: 8;
+    font-family:'Oleo Script', Helvetica, sans-serif;
+    
+  }
+  #maintitle > .jumbotron{
+    border-radius: 10%;
+  
+  }
+  #middle-section{
+  margin-top:10%;
+  font-size:1.5em;
+  }
+  #letter-c:first-letter, #letter-w:first-letter,#letter-i:first-letter,#letter-h:first-letter{
+    font-size:5em;
+    line-height: 70px;
+
+  }
+
+
+  #letter-h{
+    padding:1em;
+  }
+  h2* {
+    
+   font-size:2em;
+ }
+
+ #contact-section{
+margin-top:10%
+}
+ li{
+   list-style: none;
+   font-size:1.5em;
+   padding:2em;
+ }
+.jumbotron{
+color:gray;
+}
+ #propic{
+  animation: slide 5s infinite; 
+}
+@keyframes slide{
+  0%{
+    transform:skewX(0);
+  }
+  30%{
+    transform: skewX(15deg);
+  }
+  50%{
+      transform:skewY(0);
+    }
+  70%{
+    transform:skewY(15deg);
+
+  }
+  100%{
+    transform:skew(0);
+
+  }
+
+}
+
