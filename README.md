@@ -1,2 +1,4 @@
 # CodingWithLaurence.github.io
-nepalanandaclub.com
+## Site created with the help of Jekyll
+
+**nepalanandaclub.com**
