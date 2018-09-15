@@ -2,8 +2,8 @@
 layout: post
 title:  Hello from Nepal!
 date:   2018-09-14 15:23:57 -0400
-permalink: /hellonepal
-categories:  
+permalink: /:categories/hellonepal
+categories: blog  
 ---
 
 
